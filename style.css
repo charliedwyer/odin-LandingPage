@@ -4,4 +4,39 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    font-size: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    
+}
+
+.header-links {
+    margin-left: auto;
+    font-weight: 100;
+    display: flex;
+    
+}
+
+.header-links a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
 }
