@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    
 
 body {
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,8 +15,8 @@ body {
     background-color: #1f2937;
     color: white;
     font-size: 24px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 175px;
+    padding-right: 175px;
     align-items: center;
     font-weight: bold;
 }
@@ -42,15 +43,20 @@ ul {
 }
 
 .section-one {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 175px;
+    padding-right: 175px;
     background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
 }
 
 .section-one-left {
     width: 50%;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.section-one-right {
+    margin-top: 100px;
 }
 
 .main-text {
@@ -76,3 +82,84 @@ button {
     border: none;
     margin-top: 10px;
 }
+
+img {
+    width: 500px;
+    height: 225px;
+}
+
+.pic {
+    margin-top: 100px;
+}
+
+.top-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    padding-left: 175px;
+    padding-right: 175px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+    gap: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.text-for-boxes {
+    margin-top: 10px;
+    padding-left: 225px;
+    padding-right: 225px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.box-text {
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 215px;
+    text-align: center;
+}
+
+.section-two {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.section-three {
+    padding-top: 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.thor-text {
+    text-align: right;
+    padding-right: 250px;
+    margin-bottom: 100px;
+}
+
