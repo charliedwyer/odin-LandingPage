@@ -163,3 +163,19 @@ img {
     margin-bottom: 100px;
 }
 
+.section-four {
+    display: flex;
+    background-color: white;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.panel {
+    background-color: #3882f6;
+    height: 175px;
+    width: 1500px;
+    border-radius: 12px;
+}
+
