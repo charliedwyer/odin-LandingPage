@@ -177,5 +177,16 @@ img {
     height: 175px;
     width: 1500px;
     border-radius: 12px;
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-2 {
+    justify-self: flex-end;
+    align-self: center;
+    margin-left: auto;
 }
 
