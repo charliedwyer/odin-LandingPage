@@ -200,3 +200,19 @@ img {
     font-weight: bold;
 
 }
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
