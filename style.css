@@ -181,12 +181,22 @@ img {
     padding-left: 75px;
     padding-right: 75px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    
 }
 
 .button-2 {
-    justify-self: flex-end;
-    align-self: center;
+    border: 3px solid white;
     margin-left: auto;
+    width: 125px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
 }
 
+.call-text {
+    font-size: 24px;
+    font-weight: bold;
+
+}
